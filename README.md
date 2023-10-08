@@ -4,7 +4,9 @@
 Language models have been foundations in various scenarios of NLP applications, but it has not been well applied in language variety studies, even for the most popular language like English. This paper represents one of the few initial efforts to utilize the NLP technology in the paradigm of World Englishes, specifically in creating a multi-variety corpus for studying Asian Englishes. We present an overview of the CCAE — Corpus of Chinese-based Asian English, a suite of corpora comprising six Chinese-based Asian English varieties. It is based on 340 million tokens in 448 thousand web documents from six regions. The ontology of data would make the corpus a helpful resource with enormous research potential for Asian Englishes (especially for Chinese Englishes for which there has not been a publicly accessible corpus yet so far) and an ideal source for varietyspecific language modeling and downstream tasks, thus setting the stage for NLP-based World Englishes studies. And preliminary experiments on this corpus reveal the practical value of CCAE. Finally, we make CCAE available at https://huggingface.co/datasets/CCAE/CCAE-Corpus.
 
 <!--![Corpus](assets/corpus_components.png)-->
-<img src="assets/corpus_components.png" width="500">
+<p align="center">
+    <img src="assets/corpus_components.png" width="500">
+</p>
 
 <br>
 
@@ -18,7 +20,9 @@ The CCAE has the following major properties:
 ## Related Work
 As shown in Table 1, we compare CCAE with four other corpora. Here, we simply illustrate them1, which is web-based or manually curated.
 
-<img src="assets/corpora_comparison.png" width="650">
+<p align="center">
+    <img src="assets/corpora_comparison.png" width="650">
+</p>
 
 <br>
 
@@ -38,7 +42,9 @@ To comprehend accurately, it is essential to understand the origin of the texts 
 ### Corpus-level Statistics
 We collected a total of 101GB WARC(Web ARChive) files for the CCAE. After document-level deduplication, the corpus is composed of 448k documents and 340M word tokens(measured by SpaCy tokenization). Basic statistics of the disk size for the cleaned corpus, collected websites, documents, and tokens are displayed in Table 2.
 
-<img src="assets/corpus_statistics.png" width="590">
+<p align="center">
+    <img src="assets/corpus_statistics.png" width="590">
+</p>
 
 ### Domains Distribution
 We have conducted analysis on the highest frequent top-level domains (TLD) for each variety. Predictably, most of the represented URLs are from some popular top-level domains like .com,
@@ -46,26 +52,34 @@ We have conducted analysis on the highest frequent top-level domains (TLD) for e
 
 In addition, we present the top 20 highest frequently occurring websites for each variety in Figure 2, to display the distribution of text across different websites for each variety.
 
-<img src="assets/domain_frequency.svg" width="800">
+<p align="center">
+    <img src="assets/domain_frequency.svg" width="800">
+</p>
 
 ### Utterance Date
 Language undergoes change quickly, and the accuracy of statements depends on when they were made. We attempted to determine the date of each document by examining the publish date from two sources: Google search and Internet Archive4. We used the earlier date as the publish date for each web page. We note that the use of the Internet Archive is not perfect, as it sometimes indexes pages months after their creation and only indexes around 65% of the URLs in CCAE. For web pages with unknown dates, we marked them as “NULL” in later storage.
 
-<img src="assets/data_index_date.svg" width="850">
+<p align="center">
+    <img src="assets/data_index_date.svg" width="850">
+</p>
 
 As shown in the above figure, regardless of variety, we found that the dates of approximately 96% URLs were distributed from 2011 to 2022. In addition, there is also a significant amount of data that was written 10 years before the data collection period (from 2022/01 to 2022/06), indicating a long-tailed distribution.
 
 ## Our Spider System
 We implement a light-weight spider system for crawling text data from genre type of webpage by Google Advanced Search 🤗.
 
-<img src="assets/architecture.png" width="700">
+<p align="center">
+    <img src="assets/architecture.png" width="700">
+</p>
 
 <br>
 Google Advanced Search
 
 <br>
 
-<img src="assets/google_advanced_search.png" width="700">
+<p align="center">
+    <img src="assets/google_advanced_search.png" width="700">
+</p>
 
 ## Contributors
 Yang Liu, Melissa Xiaohui Qin
@@ -75,6 +89,7 @@ Many thanks to Mark Davis, for his useful suggestions on data collection. We als
 
 ## Citing CCAE
 If you use CCAE's data or code in your research, please use the following BibTeX entry. (To-be updated: ⚠️)
+
 ```latex
 @article{yangliu2023ccae},
   title={CCAE: A Corpus of Chinese-based Asian Englishes},
