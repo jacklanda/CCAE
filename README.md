@@ -92,7 +92,7 @@ Yang Liu, Melissa Xiaohui Qin
 Many thanks to Mark Davis, for his useful suggestions on data collection. We also thank the Internet Archive for providing service on the website time archive. This work was supported in part by the National Natural Science Foundation of China under Grant 62002016 and in part by the Fundamental Research Funds for the Central Universities under Grant 06500103.
 
 ## Citing CCAE
-If you use CCAE's data or code in your research, please use the following BibTeX entry. (To-be updated: ⚠️)
+If you use CCAE's data or code in your research, please use the following BibTeX entry.
 
 ```latex
 @InProceedings{10.1007/978-3-031-44696-2_48,
