@@ -1,8 +1,8 @@
 # CCAE: A Corpus of Chinese-based Asian Englishes
-[📄 **Paper**](127.0.0.1:8000) **·** [📚 **Dataset**](https://huggingface.co/datasets/CCAE/CCAE-Corpus) **·** [📌 **Poster**](https://github.com/jacklanda/CCAE/blob/main/assets/poster.jpg) **·** [💻 **Code**](https://github.com/jacklanda/CCAE)
+[📄 **Paper**](https://link.springer.com/chapter/10.1007/978-3-031-44696-2_48) **·** [📚 **Dataset**](https://huggingface.co/datasets/CCAE/CCAE-Corpus) **·** [📌 **Poster**](https://github.com/jacklanda/CCAE/blob/main/assets/poster.jpg) **·** [💻 **Code**](https://github.com/jacklanda/CCAE)
 
 ## Overview
-Language models have been foundations in various scenarios of NLP applications, but it has not been well applied in language variety studies, even for the most popular language like English. This paper represents one of the few initial efforts to utilize the NLP technology in the paradigm of World Englishes, specifically in creating a multi-variety corpus for studying Asian Englishes. We present an overview of the CCAE — Corpus of Chinese-based Asian English, a suite of corpora comprising six Chinese-based Asian English varieties. It is based on 340 million tokens in 448 thousand web documents from six regions. The ontology of data would make the corpus a helpful resource with enormous research potential for Asian Englishes (especially for Chinese Englishes for which there has not been a publicly accessible corpus yet so far) and an ideal source for varietyspecific language modeling and downstream tasks, thus setting the stage for NLP-based World Englishes studies. And preliminary experiments on this corpus reveal the practical value of CCAE. Finally, we make CCAE available at https://huggingface.co/datasets/CCAE/CCAE-Corpus.
+Language models have been foundations in various scenarios of NLP applications, but it has not been well applied in language variety studies, even for the most popular language like English. This paper represents one of the few initial efforts to utilize the NLP technology in the paradigm of World Englishes, specifically in creating a multi-variety corpus for studying Asian Englishes. We present an overview of the CCAE — Corpus of Chinese-based Asian English, a suite of corpora comprising six Chinese-based Asian English varieties. It is based on 340 million tokens in 448 thousand web documents from six regions. The ontology of data would make the corpus a helpful resource with enormous research potential for Asian Englishes (especially for Chinese Englishes for which there has not been a publicly accessible corpus yet so far) and an ideal source for varietyspecific language modeling and downstream tasks, thus setting the stage for NLP-based World Englishes studies. And preliminary experiments on this corpus reveal the practical value of CCAE. Finally, we make CCAE available at [here](https://huggingface.co/datasets/CCAE/CCAE-Corpus).
 
 <!--![Corpus](assets/corpus_components.png)-->
 <p align="center">
@@ -95,9 +95,22 @@ Many thanks to Mark Davis, for his useful suggestions on data collection. We als
 If you use CCAE's data or code in your research, please use the following BibTeX entry. (To-be updated: ⚠️)
 
 ```latex
-@article{yangliu2023ccae},
-  title={CCAE: A Corpus of Chinese-based Asian Englishes},
-  author={Yang Liu, Melissa Xiaohui Qin, Long Wang and Chao Huang},
-  year={2023}
+@InProceedings{10.1007/978-3-031-44696-2_48,
+author="Liu, Yang
+and Qin, Melissa Xiaohui
+and Wang, Long
+and Huang, Chao",
+editor="Liu, Fei
+and Duan, Nan
+and Xu, Qingting
+and Hong, Yu",
+title="CCAE: A Corpus of Chinese-Based Asian Englishes",
+booktitle="Natural Language Processing and Chinese Computing",
+year="2023",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="614--626",
+abstract="Language models have been foundations in various scenarios of NLP applications, but it has not been well applied in language variety studies, even for the most popular language like English. This paper represents one of the few initial efforts to utilize the NLP technology in the paradigm of World Englishes, specifically in creating a multi-variety corpus for studying Asian Englishes. We present an overview of the CCAE --- Corpus of Chinese-based Asian English, a suite of corpora comprising six Chinese-based Asian English varieties. It is based on 340 million tokens in 448 thousand web documents from six regions. The ontology of data would make the corpus a helpful resource with enormous research potential for Asian Englishes (especially for Chinese Englishes for which there has not been a publicly accessible corpus yet so far) and an ideal source for variety-specific language modeling and downstream tasks, thus setting the stage for NLP-based World Englishes studies. And preliminary experiments on this corpus reveal the practical value of CCAE. Finally, we make CCAE available at https://huggingface.co/datasets/CCAE/CCAE-Corpus.",
+isbn="978-3-031-44696-2"
 }
 ```
